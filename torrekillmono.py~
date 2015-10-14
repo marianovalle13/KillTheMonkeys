@@ -20,11 +20,8 @@ balas_simples = pilas.actores.Bala
 monos = []
 
 # Funciones
-def mono_destruido(disparo,enemigo):
-    enemigo.eliminar()
-    puntos.aumentar()
-    disparo.eliminar()
-    
+def mono_destruido():
+    pass
 
 
 def crear_mono():
